@@ -1,0 +1,205 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    body {
+        background-color: rgb(238, 238, 238);
+    }
+    
+    section {
+        width: 100%;
+        margin: 15px 0px 20px 0;
+    }
+    
+    header {
+        width: 100%;
+        height: 15%;
+        display: flex;
+    }
+    
+    nav {
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    ul {
+        display: inline-flex;
+        padding: 10px 14px;
+        text-align: center;
+        align-items: center;
+        margin: 4px 8px;
+        list-style-type: none;
+        width: 80%;
+        margin: 2%;
+        justify-content: end;
+        position: fixed;
+    }
+    
+    li a {
+        text-decoration: none;
+        color: black;
+        margin-right: 50px;
+        width: 80%;
+    }
+    
+    nav ul li .underline {
+        border-bottom: 1px solid rgb(3, 3, 3);
+    }
+    
+    .underlinea:hover {
+        border-bottom: 1px solid rgb(3, 3, 3);
+    }
+    
+    .underlinear:hover {
+        border-bottom: 1px solid rgb(3, 3, 3);
+    }
+    
+    .underlinears:hover {
+        border-bottom: 1px solid rgb(3, 3, 3);
+    }
+    
+    .container {
+        display: flex;
+        margin-top: 6%;
+        width: 90%;
+        height: 50%;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-left: 5%;
+        border-radius: 15px;
+    }
+    
+    .images {
+        width: 40%;
+        height: 100%;
+    }
+    
+    .textbox {
+        width: 50%;
+        margin-left: 7.5%;
+        height: 80%;
+        margin-top: 2.5%;
+    }
+    
+    .para {
+        display: inline-flex;
+        width: 100%;
+    }
+    
+    .para2 {
+        margin-left: 25%;
+        font-size: 10px;
+        color: grey;
+    }
+    
+    p {
+        font-size: 10px;
+        color: grey;
+    }
+    
+    .heading {
+        margin-top: 3%;
+    }
+    
+    .heading h1 {
+        font-size: 24px;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .paragraph {
+        margin-top: 2.5%;
+        width: 85%;
+    }
+    
+    .paragraph p {
+        font-size: 16px;
+    }
+    
+    .button {
+        background-color: #fcfcfc;
+        color: white;
+        padding: 8px 24px;
+        text-decoration: none;
+        display: flex;
+        font-size: 8px;
+        cursor: pointer;
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    
+    .button1 {
+        background-color: white;
+        color: grey;
+        border: 2px solid grey;
+        border-radius: 10px;
+    }
+    
+    .container-2 {
+        display: flex;
+        margin-top: 15%;
+        width: 90%;
+        height: 50%;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-left: 5%;
+        border-radius: 15px;
+    }
+    
+    .images {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .images img {
+        width: 102%;
+        height: 430px;
+        margin-left: 10px;
+        margin-top: -5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+    }
+    
+    .textboxsecond {
+        width: 50%;
+        margin-left: 7.5%;
+        height: 80%;
+        margin-top: 2.5%;
+    }
+    
+    .paraone {
+        display: inline-flex;
+        width: 100%;
+    }
+    
+    .paratwo {
+        margin-left: 25%;
+        font-size: 12px;
+        color: grey;
+    }
+    
+    p {
+        font-size: 16px;
+        color: grey;
+    }
+    
+    .headingfirst {
+        margin-top: 3%;
+    }
+    
+    .headingfirst h1 {
+        font-size: 28px;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .paragraphfirst {
+        margin-top: 2.5%;
+        width: 85%;
+    }
+    
+    .paragraphfirst p {
+        font-size: 18px;
+    }

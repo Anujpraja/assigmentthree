@@ -1,0 +1,90 @@
+body {
+    background-image: url("/home/anuj/Desktop/Assigment3/picture/download.png"), linear-gradient(to bottom, #0c004d, #473678, #7c6ea4, #b3aad1, #eeeaff);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 250px 0px 0px 0px;
+}
+
+.container .maintext {
+    width: 100%;
+    text-align: center;
+}
+
+.maintext h1 {
+    font-size: 36px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texttwo {
+    width: 100%;
+}
+
+.texttwo h2 {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+link {
+    width: 100%;
+    display: inline-flex;
+}
+
+.one {
+    padding: 4px 14px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: none;
+}
+
+.two {
+    padding: 4px 14px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: none;
+}
+
+.three {
+    padding: 4px 14px;
+    text-align: center;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: none;
+}
+
+.one a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.two a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.three a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
